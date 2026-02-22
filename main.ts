@@ -1,21 +1,16 @@
-console.log("Hello World!");
+let myLetVar: string= 'ciao';
+myLetVar = 'ciao2';
 
-let myVar: number = 3;
-myVar += 10;
+const myConstant = 'ciao';
 
-console.log("myVar = ", myVar);
+let myNumber: number = 0.123;
 
-interface MyInterface {
-    myNumber: number;
-    myString: string;
-}
+let myBoolean: boolean = false;
 
-let myInterface: MyInterface = {
-    myNumber: 10,
-    myString: "Hello world"
-};
+let myNumber2: number | undefined; 
+console.log('myNumber2 = ', myNumber2); 
 
-console.log("myNumber = ", myInterface.myNumber); // myInterface.myNumber = "Hello world"; // Error: Type 'string' is not assignable to type 'number'
-console.log("myString = ", myInterface.myString); // myInterface.myString = 10; // Error: Type 'number' is not assignable to type 'string'
+let myUndefinedVar: undefined;// undefined
+
 
 
