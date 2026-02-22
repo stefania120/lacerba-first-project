@@ -15,6 +15,7 @@ let myInterface: MyInterface = {
     myString: "Hello world"
 };
 
-console.log("myNumber = ", myInterface.myNumber);
-console.log("myString = ", myInterface.myString);
+console.log("myNumber = ", myInterface.myNumber); // myInterface.myNumber = "Hello world"; // Error: Type 'string' is not assignable to type 'number'
+console.log("myString = ", myInterface.myString); // myInterface.myString = 10; // Error: Type 'number' is not assignable to type 'string'
+
 
