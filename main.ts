@@ -17,3 +17,12 @@ console.log('Hello Computing square of value');
 for (let x = 1; x < 100; x++) {
     console.log(`\t${x}^2 = ${x * x}`);
 }
+
+console.log(' ---- ');
+
+const numbers = [2, 6, 12, 43];
+for (const x of numbers) {
+    console.log(`\t${x}^2 = ${x * x}`);
+    
+}
+
