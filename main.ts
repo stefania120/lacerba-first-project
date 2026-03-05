@@ -25,4 +25,11 @@ for (const x of numbers) {
     console.log(`\t${x}^2 = ${x * x}`);
     
 }
+console.log(' ---- ');
+
+let x = 1;
+while (x < 10) {
+    console.log(`\t${x}^2 = ${x * x}`);
+    x++;
+}
 
