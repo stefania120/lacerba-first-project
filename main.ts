@@ -16,8 +16,12 @@ const random = (min: number, max: number): number => {
     return Math.random() * (max - min) + min;
 }
 
-console.log(greeting('Ludovico', 'en'));
-console.log(greeting('Marco' ));
-
-console.log('Random number between 3 and 5', random(3, 5));
+function printFunction(func: () => void): void {
+    console.log(`calling function `);
+    func();
+    console.log(`function called function`);
+}
+printFunction(() => {
+    console.log(greeting('Ludovico'));
+});
 
