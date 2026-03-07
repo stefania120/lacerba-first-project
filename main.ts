@@ -1,28 +1,18 @@
-const x : number= 10;
- switch (x) {
-    case 1:
-        console.log('x vale 1');
-        break;
-    case 2:
-        console.log('x vale 2');
-        break;
-    case 10:
-        console.log('x vale 10');
-        break;
-    default:
-        console.log('non conosco il valore di x');
-        break;   
- }
-
- console.log('------------------');
- 
-
-if (x === 1) {
-    console.log('x vale 1');
-} else if (x === 2) {
-    console.log('x vale 2');
-} else if (x === 10) {
-    console.log('x vale 10');
-} else {
-    console.log('non conosco il valore di x');
+function hello(name: string): string {
+    console.log( "Hello, world!" );
+    console.log(`hello from, ${name}!`); 
+    return `questa è la stringa di ritorno`;
 }
+
+hello('Ludovico');
+hello('Marco');
+
+console.log(`\n-----------------------------\n`);
+
+
+function greeting(name: string) {
+    return `Ciao ${name}`;
+}
+
+console.log(greeting('Ludovico'));
+console.log(greeting('Marco'));
