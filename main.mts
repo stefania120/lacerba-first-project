@@ -20,5 +20,8 @@ return `${greetingWord} ${name}`;
 for (let i = 0; i < 10; i++) {
     const email = faker.internet.domainName();
     console.log(email);
+
 }
+
+// prova commit
 
